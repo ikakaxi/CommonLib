@@ -1,0 +1,41 @@
+<!--这些都是需要上层App设置的值-->
+<!--属性参考http://yifeng.studio/2017/04/18/android-theme-appcompat-color-attrs/ -->
+<resources>
+    <!--Toolbar背景颜色,通常也是一个App的主题色调,
+        如果是ActionBar直接在这里设置即可,
+        而Toolbar需要在xml设置background,
+        我把xml里的Toolbar的背景颜色设置为下面这个值了-->
+    <item name="colorPrimary" type="color"/>
+
+    <!--状态栏颜色-->
+    <item name="colorPrimaryDark" type="color"/>
+
+    <!--
+    许多控件在选中状态或获取焦点状态下使用这个颜色，常见有：
+        CheckBox：checked 状态
+        RadioButton：checked 状态
+        SwitchCompat：checked 状态
+        EditText：获取焦点时的 underline 和 cursor 颜色
+        TextInputLayout：悬浮 label 字体颜色
+        等等
+    -->
+    <item name="colorAccent" type="color"/>
+
+    <!--页面背景颜色-->
+    <item name="windowBackground" type="color"/>
+
+    <!--标题栏文字和弹出的菜单文字颜色-->
+    <item name="textColorPrimary" type="color"/>
+
+    <!--某些 Views “normal” 状态下的颜色，
+    常见如：
+        unselected CheckBox 和 RadioButton，
+        失去焦点时的 EditText，Toolbar 溢出按钮(更多)颜色，等等。-->
+    <item name="colorControlNormal" type="color"/>
+
+    <!-- Toolbar弹出层背景颜色 -->
+    <item name="popupBackground" type="color"/>
+
+    <!-- Toolbar弹出层文字颜色 -->
+    <item name="popupTextColor" type="color"/>
+</resources>

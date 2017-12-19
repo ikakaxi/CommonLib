@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--溢出弹出菜单样式-->
+    <style name="ToolbarPopupTheme">
+        <!--新增一个item，用于控制menu-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!-- 弹出层背景颜色 -->
+        <item name="android:colorBackground">@color/popupBackground</item>
+        <!-- 设置弹出菜单文字颜色 -->
+        <item name="android:textColor">@color/popupTextColor</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <!--把该属性改为false即可使menu位置位于toolbar之下,该值默认为true-->
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <!--http://blog.csdn.net/afei__/article/details/51476096-->
+    <style name="CustomActionBarStyle" parent="Widget.AppCompat.Light.ActionBar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+        <item name="contentInsetRight">0dp</item>
+    </style>
+</resources>

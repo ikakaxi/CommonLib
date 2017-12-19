@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <!-- 使用 API Level 22 编译的话,要去掉前缀字 -->
+        <item name="windowNoTitle">true</item>
+        <!--Toolbar高度,暂时不知道怎么配置到上层使用Toolbar的地方-->
+        <!--<item name="actionBarSize">?android:attr/actionBarSize</item>-->
+        <!--Toolbar颜色等自定义-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorControlNormal</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <!--页面背景颜色-->
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!--该属性无效,需要在使用Toolbar的xml那设置-->
+        <!--<item name="actionBarPopupTheme">@style/ToolbarPopupTheme</item>-->
+        <item name="android:actionBarStyle">@style/CustomActionBarStyle</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="UI.AppTheme" parent="AppTheme.Base">
+    </style>
+</resources>

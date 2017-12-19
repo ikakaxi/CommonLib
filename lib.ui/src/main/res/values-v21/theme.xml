@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="UI.AppTheme" parent="AppTheme.Base">
+        <!--底部导航栏颜色,仅能在API v21也就是Android 5以后的版本中使用
+        因此要将之设定在 res/values-v21/styles.xml 里面-->
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+</resources>
