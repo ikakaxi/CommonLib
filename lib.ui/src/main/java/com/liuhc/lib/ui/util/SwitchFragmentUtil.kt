@@ -1,4 +1,4 @@
-package com.liuhc.libui.util
+package com.liuhc.lib.ui.util
 
 import android.support.annotation.IdRes
 import android.support.v4.app.Fragment

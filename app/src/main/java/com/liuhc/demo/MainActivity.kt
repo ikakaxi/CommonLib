@@ -1,7 +1,7 @@
-package com.liuhc.commonlib
+package com.liuhc.demo
 
 import android.view.Menu
-import com.liuhc.libui.activity.AbstractBackActivity
+import com.liuhc.lib.ui.activity.AbstractBackActivity
 
 class MainActivity : AbstractBackActivity() {
 

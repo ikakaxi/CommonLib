@@ -1,8 +1,8 @@
-package com.liuhc.libui.activity
+package com.liuhc.lib.ui.activity
 
 import android.support.annotation.CallSuper
 import android.support.v7.widget.Toolbar
-import com.liuhc.libui.R
+import com.liuhc.lib.ui.R
 
 /**
  * 有后退标题栏的Activity,子类的xml中需要有id为toolbar的ToolBar

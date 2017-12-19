@@ -1,11 +1,11 @@
-package com.liuhc.libui.activity
+package com.liuhc.lib.ui.activity
 
 import android.os.Bundle
 import android.os.Parcelable
 import android.support.annotation.LayoutRes
 import android.support.v7.app.AppCompatActivity
-import com.liuhc.libui.fragment.AbstractFragment
-import com.liuhc.libui.util.SwitchFragmentUtil
+import com.liuhc.lib.ui.fragment.AbstractFragment
+import com.liuhc.lib.ui.util.SwitchFragmentUtil
 import java.io.Serializable
 
 /**

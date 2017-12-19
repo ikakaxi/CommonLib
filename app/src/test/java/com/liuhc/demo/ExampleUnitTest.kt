@@ -1,4 +1,4 @@
-package com.liuhc.commonlib
+package com.liuhc.demo
 
 import org.junit.Test
 

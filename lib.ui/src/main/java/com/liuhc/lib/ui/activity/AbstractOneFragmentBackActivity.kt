@@ -1,9 +1,9 @@
-package com.liuhc.libui.activity
+package com.liuhc.lib.ui.activity
 
 import android.support.v4.app.Fragment
-import com.liuhc.libui.IBackFragment
-import com.liuhc.libui.R
-import com.liuhc.libui.extension.showFragment
+import com.liuhc.lib.ui.IBackFragment
+import com.liuhc.lib.ui.extension.showFragment
+import com.liuhc.lib.ui.R
 
 /**
  * 内置一个Fragment的Activity

@@ -1,8 +1,8 @@
-package com.liuhc.libui.extension
+package com.liuhc.lib.ui.extension
 
 import android.support.annotation.IdRes
 import android.support.v4.app.Fragment
-import com.liuhc.libui.util.SwitchFragmentUtil
+import com.liuhc.lib.ui.util.SwitchFragmentUtil
 
 /**
  * Fragment的扩展类

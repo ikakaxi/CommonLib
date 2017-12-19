@@ -1,4 +1,4 @@
-package com.liuhc.libui;
+package com.liuhc.ui;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

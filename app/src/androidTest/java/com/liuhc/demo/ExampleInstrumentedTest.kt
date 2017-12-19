@@ -1,4 +1,4 @@
-package com.liuhc.commonlib
+package com.liuhc.demo
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.liuhc.libui.fragment
+package com.liuhc.lib.ui.fragment
 
 import android.content.Context
 import android.os.Bundle
