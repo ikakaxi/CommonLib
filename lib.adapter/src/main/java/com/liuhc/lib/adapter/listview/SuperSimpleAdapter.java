@@ -17,7 +17,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * 超级简单适配器，具有ListView的优化功能，设置CheckBox互斥选中功能，设置View的监听功能，设置View的Tag功能
+ * 超级简单适配器，具有ListView的优化功能
  *
  * @param <T>
  * @author liuhaichao

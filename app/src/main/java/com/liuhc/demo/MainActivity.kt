@@ -1,9 +1,9 @@
 package com.liuhc.demo
 
 import android.view.Menu
-import com.liuhc.lib.ui.activity.AbstractBackActivity
+import com.liuhc.lib.ui.activity.AbstractToolbarActivity
 
-class MainActivity : AbstractBackActivity() {
+class MainActivity : AbstractToolbarActivity() {
 
     override fun getContextViewResId(): Int = R.layout.activity_main
 
