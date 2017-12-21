@@ -36,12 +36,17 @@ abstract class AbstractToolbarActivity : AbstractActivity() {
                 onBackPressed()
             }
         }
-        if (getContextViewResId() > 0) {
-            setContentLayout(getContextViewResId())
+        if (getContentViewResId() > 0) {
+            setContentLayout(getContentViewResId())
         }
     }
 
-    override final fun getContextViewResId(): Int = R.layout.activity_has_toolbar
+    override final fun getRootViewResId(): Int = R.layout.activity_has_toolbar
+
+    /**
+     * R.id.content里面放置的内容
+     */
+    abstract fun getContentViewResId(): Int
 
     fun getContentId() = R.id.content
 
@@ -55,6 +60,8 @@ abstract class AbstractToolbarActivity : AbstractActivity() {
      */
     private fun setContentLayout(layoutId: Int) {
         val inflater = getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+        //inflate里的layoutId最外层不能使用merge,因为merge必须放进一个容器里
+        //否则报: <merge /> can be used only with a valid ViewGroup root and attachToRoot=true
         val contentView = inflater.inflate(layoutId, null)
         val params = ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.MATCH_PARENT)

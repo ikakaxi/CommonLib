@@ -5,11 +5,7 @@ import com.liuhc.lib.ui.activity.AbstractToolbarActivity
 
 class MainActivity : AbstractToolbarActivity() {
 
-    override fun getContextViewResId(): Int = R.layout.activity_main
-
-    override fun doInitView() {
-        super.doInitView()
-    }
+    override fun getContentViewResId(): Int = R.layout.activity_main
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)

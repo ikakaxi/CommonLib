@@ -16,14 +16,14 @@ abstract class AbstractActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(getContextViewResId())
+        setContentView(getRootViewResId())
         savedInstanceState?.let {
             recovery(it)
         } ?: doInitView()
     }
 
     @LayoutRes
-    protected abstract fun getContextViewResId(): Int
+    protected abstract fun getRootViewResId(): Int
 
     /**
      * 初始化UI控件

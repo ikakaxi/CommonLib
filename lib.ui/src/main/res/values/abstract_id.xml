@@ -1,4 +1,3 @@
 <!--这些都是需要上层App设置的值-->
 <resources>
-    <item name="toolbar" type="id"/>
 </resources>
