@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import com.liuhc.lib.ui.R
 import kotlinx.android.synthetic.main.activity_has_toolbar.*
 
-
 /**
  * 有后退标题栏的Activity,子类的xml中需要有id为toolbar的ToolBar
  * Created by liuhc on 2017/12/18.
